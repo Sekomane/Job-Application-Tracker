@@ -18,8 +18,7 @@ function Login() {
 
     // Get registered users from localStorage
     const localUsers = JSON.parse(localStorage.getItem("users")) || [];
-
-    // Merge JSON users + localStorage users
+    
     const allUsers = [...usersJSON, ...localUsers];
 
     const user = allUsers.find(
@@ -36,7 +35,7 @@ function Login() {
 
   return (
     <div className="page-container">
-      {/* Navbar */}
+      {}
       <nav className="navbar">
         <ul className="nav-links">
           <li><Link to="/">Landing</Link></li>
@@ -93,7 +92,7 @@ function Login() {
         </div>
       </div>
 
-      {/* Footer same as Register */}
+      {}
       <footer className="footer">
         <div className="footer-container">
           <div className="footer-section">
