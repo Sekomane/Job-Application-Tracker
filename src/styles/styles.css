@@ -402,3 +402,145 @@ About
   margin-bottom: 10px;
   font-weight: bold;
 }
+/* Full-page container */
+/* General Page */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  background: #222;
+  padding: 15px 30px;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  justify-content: center;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+.nav-links a:hover {
+  color: #f39c12;
+}
+
+/* Login Container */
+.login-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.login-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+  width: 350px;
+  text-align: center;
+}
+.login-card h2 {
+  margin-bottom: 10px;
+}
+.login-card p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.login-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.password-container {
+  display: flex;
+  gap: 5px;
+}
+.show-password-btn {
+  padding: 10px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.show-password-btn:hover {
+  background: #ddd;
+}
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.login-btn:hover {
+  background: #0056b3;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* Register Link */
+.register-link {
+  margin-top: 15px;
+}
+.link-text {
+  color: #007bff;
+  cursor: pointer;
+}
+.link-text:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  background: #222;
+  color: #ddd;
+  padding: 30px 20px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.footer-section h3 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-section ul li {
+  margin-bottom: 6px;
+}
+.footer-section a {
+  text-decoration: none;
+  color: #ddd;
+}
+.footer-section a:hover {
+  color: #f39c12;
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}

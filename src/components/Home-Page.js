@@ -22,9 +22,9 @@ const Home = () => {
           <li> <Link to="/about">About</Link> </li>
           <li><Link to="/contact">Contact</Link></li>
           <li><a href="#services">Track</a></li>
-          <li><a href="#applications">Job Application</a></li>
-          <li><a href="#login">Login</a></li>
-          <li><a href="#sign-up">Sign-up</a></li>
+          <li><Link to="/Login">Login </Link></li>
+          <li><Link to="/login">About</Link></li>
+          <li><Link to="/login">Sign-up</Link></li>
         </ul>
       </nav>
       { }
@@ -63,7 +63,7 @@ const Home = () => {
       </p>
       <div className="stats-row">
         <div className="stat-item">
-          <h2 className="tentimes">10X</h2>
+          <h2 className="tentimes">10x</h2>
           <p className="desc">Fast Job Search</p>
         </div>
 
