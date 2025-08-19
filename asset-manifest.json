@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Job-Application-Tracker/static/css/main.020792db.css",
+    "main.js": "/Job-Application-Tracker/static/js/main.8b2e2587.js",
+    "static/js/453.1ec5b71a.chunk.js": "/Job-Application-Tracker/static/js/453.1ec5b71a.chunk.js",
+    "index.html": "/Job-Application-Tracker/index.html",
+    "main.020792db.css.map": "/Job-Application-Tracker/static/css/main.020792db.css.map",
+    "main.8b2e2587.js.map": "/Job-Application-Tracker/static/js/main.8b2e2587.js.map",
+    "453.1ec5b71a.chunk.js.map": "/Job-Application-Tracker/static/js/453.1ec5b71a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.020792db.css",
+    "static/js/main.8b2e2587.js"
+  ]
+}
