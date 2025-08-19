@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../styles/styles.css";
 import { Link } from "react-router-dom";
 import contactData from "../data/contact.json";
+import jobssImg from '../assets/jobss.webp';
 
 const Home = () => {
 
@@ -21,9 +22,7 @@ const Home = () => {
           <li> <Link to="/">Home</Link> </li>
           <li> <Link to="/about">About</Link> </li>
           <li><Link to="/contact">Contact</Link></li>
-          <li><a href="#services">Track</a></li>
           <li><Link to="/Login">Login </Link></li>
-          <li><Link to="/login">About</Link></li>
           <li><Link to="/login">Sign-up</Link></li>
         </ul>
       </nav>
@@ -44,11 +43,7 @@ const Home = () => {
 
           { }
 
-          <img
-            src="/jobss.webp"
-            alt="Job Tracker"
-            className="header-image"
-          />
+<img src={jobssImg} alt="Job Tracker" className="header-image" />
         </div>
 
       </div>
@@ -123,11 +118,11 @@ const Home = () => {
           <div className="footer-section">
             <h3>Quick Links</h3>
             <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#services">Track</a></li>
-              <li><a href="#applications">Job Application</a></li>
-              <li><a href="#login">Login</a></li>
+          <li> <Link to="/">Home</Link> </li>
+          <li> <Link to="/about">About</Link> </li>
+          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/Login">Login </Link></li>
+          <li><Link to="/login">Sign-up</Link></li>
             </ul>
           </div>
 

@@ -2,6 +2,8 @@ import React, {useEffect,useState} from "react";
 import { Link } from "react-router-dom";
 import "../styles/styles.css";
 import contactData from "../data/contact.json"; 
+import aboutImg from '../assets/about.webp';
+
 
 const About = () => {
   const [contact, setContact] = useState({});
@@ -21,10 +23,8 @@ const About = () => {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/contact">Contact</Link></li>
-          <li><a href="#services">Track</a></li>
-          <li><a href="#applications">Job Application</a></li>
-          <li><a href="#login">Login</a></li>
-          <li><a href="#sign-up">Sign-up</a></li>
+          <li><Link to="/contact">Login</Link></li>
+          <li><Link to="/contact">Sign-up</Link></li>
         </ul>
       </nav>
 
@@ -51,7 +51,7 @@ const About = () => {
         </div>
 
         <div className="about-image">
-          <img src="/about.webp" alt="About Us" />
+          <img src={aboutImg} alt="About Us" />
         </div>
       </div>
 
@@ -83,11 +83,11 @@ const About = () => {
           <div className="footer-section">
             <h3>Quick Links</h3>
             <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">About</Link></li>
-              <li><a href="#services">Track</a></li>
-              <li><a href="#applications">Job Application</a></li>
-              <li><a href="#login">Login</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/contact">Login</Link></li>
+          <li><Link to="/contact">Sign-up</Link></li>
             </ul>
           </div>
 

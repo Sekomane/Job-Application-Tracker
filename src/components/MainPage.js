@@ -91,8 +91,7 @@ function MainPage() {
     <div className="page-container">
       <nav className="navbar">
         <ul className="nav-links">
-          <li><Link to="/">Landing</Link></li>
-          <li><Link to="/home">Home</Link></li>
+          <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/contact">Contact</Link></li>
           <li>
@@ -125,7 +124,7 @@ function MainPage() {
             type="text"
             value={role}
             onChange={(e) => setRole(e.target.value)}
-            placeholder="Role"
+            placeholder="Position."
             required
           />
           <select value={status} onChange={(e) => setStatus(e.target.value)}>
@@ -141,7 +140,7 @@ function MainPage() {
           <textarea
             value={extraDetails}
             onChange={(e) => setExtraDetails(e.target.value)}
-            placeholder="Extra Details"
+            placeholder="Notes about the Job"
           />
           <button type="submit">{editingIndex !== null ? "Update Job" : "Add Job"}</button>
         </form>

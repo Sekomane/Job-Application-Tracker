@@ -48,8 +48,7 @@ function Register() {
     <div className="page-container">
       <nav className="navbar">
         <ul className="nav-links">
-          <li><Link to="/">Landing</Link></li>
-          <li><Link to="/home">Home</Link></li>
+          <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/contact">Contact</Link></li>
           <li><Link to="/login">Login</Link></li>
@@ -105,11 +104,11 @@ function Register() {
           <div className="footer-section">
             <h3>Quick Links</h3>
             <ul>
-              <li><Link to="/">Landing</Link></li>
-              <li><Link to="/home">Home</Link></li>
-              <li><Link to="/about">About</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
-              <li><Link to="/login">Login</Link></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/login">Login</Link></li>
+          <li><Link to="/register">Sign Up</Link></li>
             </ul>
           </div>
 

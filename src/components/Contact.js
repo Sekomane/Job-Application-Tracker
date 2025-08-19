@@ -32,10 +32,8 @@ const Contact = () => {
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
-                    <li><a href="#services">Track</a></li>
-                    <li><a href="#applications">Job Application</a></li>
-                    <li><a href="#login">Login</a></li>
-                    <li><a href="#sign-up">Sign-up</a></li>
+                    <li><Link to="/login">Login</Link></li>
+                    <li><Link to="/register">Sign-up</Link></li>
                 </ul>
             </nav>
 
@@ -89,9 +87,9 @@ const Contact = () => {
                         <ul>
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/about">About</Link></li>
-                            <li><a href="#services">Track</a></li>
-                            <li><a href="#applications">Job Application</a></li>
-                            <li><a href="#login">Login</a></li>
+                            <li><Link to="/contact">Contact</Link></li>
+                            <li><Link to="/login">Login</Link></li>
+                            <li><Link to="/register">Sign-up</Link></li>
                         </ul>
                     </div>
                     <div className="footer-section">

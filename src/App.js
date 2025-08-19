@@ -6,7 +6,8 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Login from "./components/Login";
 import Register from './components/Register';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
@@ -18,7 +19,21 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="*" element={<h2>404 Page Not Found</h2>} /> {/* catch-all 404 */}
+        <Route
+  path="*"
+  element={
+    <div style={{ textAlign: "center", marginTop: "50px" }}>
+      <img
+        src={process.env.PUBLIC_URL + "/404 Error Message.jpg"}
+        alt="404 Not Found"
+        style={{ width: "500px", maxWidth: "100%" }}
+      />
+      <h2></h2>
+      
+      <a href="/" style={{ color: "#007bff", textDecoration: "underline" }}>Go back home</a>
+    </div>
+  }
+/>
       </Routes>
     </Router>
   );
