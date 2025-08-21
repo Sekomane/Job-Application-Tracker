@@ -1,6 +1,6 @@
 #  Job Application Tracker (React)
 
-A sleek React.js application to help you **track your job applications**—status updates, contacts, follow-up dates, and more—all in one place.
+A sleek React.js application to help you **track your job applications** status updates, contacts, follow-up dates, and more all in one place.
 
 Check it out: [Live Demo](https://sekomane.github.io/Job-Application-Tracker/)
 
