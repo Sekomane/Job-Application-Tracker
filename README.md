@@ -10,18 +10,11 @@ This React application enables users to log, manage, and monitor their job appli
 
 ---
 
-## Live Demo
-
-Experience it live: [https://sekomane.github.io/Job-Application-Tracker/](https://sekomane.github.io/Job-Application-Tracker/)
-
----
-
 ## Built With
 
 - **React.js** – Frontend library  
-- **Vite** – Fast development & build tooling  
-- **TypeScript** *(if used)* – Typed safety and clarity  
-- Optional: Add others like UI libraries (e.g. Tailwind CSS, Material UI) here
+- **Vite** – Fast development & build tooling
+- **CSS** - For Styling
 
 ---
 
