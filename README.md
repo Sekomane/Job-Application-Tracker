@@ -6,7 +6,7 @@ Check it out: [Live Demo](https://sekomane.github.io/Job-Application-Tracker/)
 
 ## Overview
 
-This React application enables users to log, manage, and monitor their job applications from one central dashboard. Built with React and Vite for performance and developer experience, it streamlines your job hunt—no more messy spreadsheets.
+This React application enables users to log, manage, and monitor their job applications from one central dashboard. Built with React and Vite for performance and developer experience, it streamlines your job hunt no more messy spreadsheets.
 
 ---
 
